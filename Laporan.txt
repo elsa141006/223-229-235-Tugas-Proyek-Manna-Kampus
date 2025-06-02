@@ -24,138 +24,116 @@ B023;Dettol;Sabun;4000;70
 B024;Palmolive;Sabun;4500;60
 B025;Biore;Sabun;5000;65
 B026;Giv;Sabun;2500;100
-		daftar[26] = {"B027", "Nuvo", "Sabun", 3700, 75};
-		daftar[27] = {"B028", "Imperial Leather", "Sabun", 4800, 55};
-		daftar[28] = {"B029", "Shinzui", "Sabun", 5200, 50};
-		daftar[29] = {"B030", "Leivy", "Sabun", 6000, 45};
-		
-		// Obat-obatan
-		daftar[30] = {"B031", "Paracetamol", "Obat-obatan", 2000, 100};
-		daftar[31] = {"B032", "OBH Combi", "Obat-obatan", 12000, 60};
-		daftar[32] = {"B033", "Antangin", "Obat-obatan", 1500, 90};
-		daftar[33] = {"B034", "Tolak Angin", "Obat-obatan", 3000, 70};
-		daftar[34] = {"B035", "Bodrex", "Obat-obatan", 2500, 80};
-		daftar[35] = {"B036", "Promag", "Obat-obatan", 2000, 85};
-		daftar[36] = {"B037", "Panadol", "Obat-obatan", 3500, 75};
-		daftar[37] = {"B038", "Decolgen", "Obat-obatan", 2700, 65};
-		daftar[38] = {"B039", "Neozep", "Obat-obatan", 2900, 60};
-		daftar[39] = {"B040", "Konidin", "Obat-obatan", 2400, 95};
-		
-		// Bakery
-		daftar[40] = {"B042", "Roti Tawar", "Bakery", 7000, 80};
-		daftar[41] = {"B043", "Croissant", "Bakery", 8000, 75};
-		daftar[42] = {"B044", "Roti Pisang", "Bakery", 5000, 85};
-		daftar[43] = {"B045", "Kue Lapis", "Bakery", 4500, 60};
-		daftar[44] = {"B046", "Bolu Gulung", "Bakery", 7500, 50};
-		daftar[45] = {"B047", "Roti Sisir", "Bakery", 6000, 70};
-		daftar[46] = {"B048", "Kue Cubit", "Bakery", 4000, 65};
-		daftar[47] = {"B049", "Roti Sosis", "Bakery", 8500, 40};
-		daftar[48] = {"B050", "Roti Coklat", "Bakery", 8000, 55};
-		
-		// Parfum
-		daftar[49] = {"B051", "Parfum Vanilla", "Parfum", 20000, 30};
-		daftar[50] = {"B052", "Parfum Lavender", "Parfum", 22000, 25};
-		daftar[51] = {"B053", "Parfum Ocean", "Parfum", 21000, 35};
-		daftar[52] = {"B054", "Parfum Musk", "Parfum", 25000, 20};
-		daftar[53] = {"B055", "Parfum Rose", "Parfum", 23000, 28};
-		daftar[54] = {"B056", "Parfum Jasmine", "Parfum", 24000, 26};
-		daftar[55] = {"B057", "Parfum Citrus", "Parfum", 19000, 32};
-		daftar[56] = {"B058", "Parfum Green Tea", "Parfum", 26000, 18};
-		daftar[57] = {"B059", "Parfum Coffee", "Parfum", 27000, 22};
-		daftar[58] = {"B060", "Parfum Sandalwood", "Parfum", 28000, 24};
-		
-		// Skincare
-		daftar[59] = {"B061", "Moisturizer", "Skincare", 30000, 45};
-		daftar[60] = {"B062", "Sunscreen", "Skincare", 35000, 40};
-		daftar[61] = {"B063", "Serum Wajah", "Skincare", 50000, 35};
-		daftar[62] = {"B064", "Facial Wash", "Skincare", 25000, 50};
-		daftar[63] = {"B065", "Night Cream", "Skincare", 45000, 30};
-		daftar[64] = {"B066", "Toner", "Skincare", 27000, 38};
-		daftar[65] = {"B067", "Sheet Mask", "Skincare", 15000, 60};
-		daftar[66] = {"B068", "Eye Cream", "Skincare", 48000, 28};
-		daftar[67] = {"B069", "Lip Balm", "Skincare", 12000, 55};
-		daftar[68] = {"B070", "Peeling Gel", "Skincare", 33000, 25};
-		
-		// Minuman
-		daftar[69] = {"B071", "Teh Botol", "Minuman", 4000, 100};
-		daftar[70] = {"B072", "Aqua 600ml", "Minuman", 3000, 120};
-		daftar[71] = {"B073", "Susu Ultra", "Minuman", 6000, 90};
-		daftar[72] = {"B074", "Kopi Kapal Api", "Minuman", 2500, 150};
-		daftar[73] = {"B075", "Floridina", "Minuman", 4000, 85};
-		daftar[74] = {"B076", "Good Day", "Minuman", 4500, 80};
-		daftar[75] = {"B077", "Pocari Sweat", "Minuman", 7000, 75};
-		daftar[76] = {"B078", "Coca Cola", "Minuman", 6000, 100};
-		daftar[77] = {"B079", "Sprite", "Minuman", 6000, 95};
-		daftar[78] = {"B080", "You C1000", "Minuman", 8000, 70};
-		
-		// Sembako
-		daftar[79] = {"B081", "Beras 5kg", "Sembako", 60000, 40};
-		daftar[80] = {"B082", "Minyak Goreng 1L", "Sembako", 15000, 60};
-		daftar[81] = {"B083", "Gula Pasir 1kg", "Sembako", 14000, 50};
-		daftar[82] = {"B084", "Telur Ayam 1kg", "Sembako", 28000, 55};
-		daftar[83] = {"B085", "Tepung Terigu 1kg", "Sembako", 10000, 45};
-		daftar[84] = {"B086", "Garam Dapur", "Sembako", 3000, 80};
-		daftar[85] = {"B087", "Kecap Manis", "Sembako", 9000, 70};
-		daftar[86] = {"B088", "Saus Sambal", "Sembako", 8000, 65};
-		daftar[87] = {"B089", "Mi Instan", "Sembako", 3000, 100};
-		daftar[88] = {"B090", "Susu Bubuk", "Sembako", 35000, 30};
-		
-		// Baju
-		daftar[89] = {"B091", "Kaos Polos", "Baju", 25000, 40};
-		daftar[90] = {"B092", "Kemeja Lengan Pendek", "Baju", 45000, 30};
-		daftar[91] = {"B093", "Jaket Hoodie", "Baju", 70000, 25};
-		daftar[92] = {"B094", "Celana Jeans", "Baju", 80000, 20};
-		daftar[93] = {"B095", "Kaos Lengan Panjang", "Baju", 30000, 35};
-		daftar[94] = {"B096", "Kemeja Flanel", "Baju", 50000, 28};
-		daftar[95] = {"B097", "Sweater", "Baju", 60000, 22};
-		daftar[96] = {"B098", "Rok Pendek", "Baju", 40000, 18};
-		daftar[97] = {"B099", "Celana Bahan", "Baju", 45000, 26};
-		daftar[98] = {"B100", "Kaos Oblong", "Baju", 20000, 50};
-		
-		// ATK (Alat Tulis Kantor)
-		daftar[99] = {"B101", "Stapler", "ATK", 15000, 40};
-		daftar[100] = {"B102", "Isi Staples", "ATK", 5000, 60};
-		daftar[101] = {"B103", "Lakban", "ATK", 8000, 55};
-		daftar[102] = {"B104", "Gunting", "ATK", 10000, 50};
-		daftar[103] = {"B105", "Cutter", "ATK", 9000, 45};
-		daftar[104] = {"B106", "Kertas HVS", "ATK", 30000, 30};
-		daftar[105] = {"B107", "Map Kertas", "ATK", 2000, 70};
-		daftar[106] = {"B108", "Lem Kertas", "ATK", 4000, 65};
-		daftar[107] = {"B109", "Papan Klip", "ATK", 12000, 25};
-		daftar[108] = {"B110", "Spidol Whiteboard", "ATK", 7000, 35};
-		
-		// Bumbu Dapur
-		daftar[109] = {"B111", "Bawang Putih", "Bumbu dapur", 20000, 50};
-		daftar[110] = {"B112", "Bawang Merah", "Bumbu dapur", 18000, 55};
-		daftar[111] = {"B113", "Cabai Merah", "Bumbu dapur", 25000, 40};
-		daftar[112] = {"B114", "Ketumbar", "Bumbu dapur", 6000, 60};
-		daftar[113] = {"B115", "Kunyit", "Bumbu dapur", 4000, 65};
-		daftar[114] = {"B116", "Jahe", "Bumbu dapur", 5000, 50};
-		daftar[115] = {"B117", "Lengkuas", "Bumbu dapur", 4000, 45};
-		daftar[116] = {"B118", "Merica Bubuk", "Bumbu dapur", 10000, 30};
-		daftar[117] = {"B119", "Garam Halus", "Bumbu dapur", 3000, 80};
-		daftar[118] = {"B120", "Penyedap Rasa", "Bumbu dapur", 5000, 75};
-		
-		// Buah-buahan
-		daftar[119] = {"B121", "Apel", "Buah-buahan", 15000, 60};
-		daftar[120] = {"B122", "Jeruk", "Buah-buahan", 12000, 70};
-		daftar[121] = {"B123", "Pisang", "Buah-buahan", 10000, 80};
-		daftar[122] = {"B124", "Anggur", "Buah-buahan", 25000, 40};
-		daftar[123] = {"B125", "Semangka", "Buah-buahan", 20000, 35};
-		daftar[124] = {"B126", "Melon", "Buah-buahan", 18000, 30};
-		daftar[125] = {"B127", "Pepaya", "Buah-buahan", 9000, 45};
-		daftar[126] = {"B128", "Mangga", "Buah-buahan", 13000, 50};
-		daftar[127] = {"B129", "Nanas", "Buah-buahan", 8000, 55};
-		daftar[128] = {"B130", "Kiwi", "Buah-buahan", 27000, 25};
-		
-		// Frozen Food
-		daftar[129] = {"B131", "Nugget Ayam", "Frozen food", 25000, 40};
-		daftar[130] = {"B132", "Sosis Sapi", "Frozen food", 23000, 50};
-		daftar[131] = {"B133", "Bakso Ikan", "Frozen food", 20000, 60};
-		daftar[132] = {"B134", "Dimsum Ayam", "Frozen food", 28000, 30};
-		daftar[133] = {"B135", "Kentang Beku", "Frozen food", 22000, 35};
-		daftar[134] = {"B136", "Chicken Karaage", "Frozen food", 30000, 25};
-		daftar[135] = {"B137", "Tempura", "Frozen food", 27000, 28};
-		daftar[136] = {"B138", "Tahu Bakso", "Frozen food", 18000, 45};
-		daftar[137] = {"B139", "Lumpia Frozen", "Frozen food", 20000, 32};
-		daftar[138] = {"B140", "Risol Mayo", "Frozen food", 24000, 38
+B027;Nuvo;Sabun;3700;75
+B028;Imperial Leather;Sabun;4800;55
+B029;Shinzui;Sabun;5200;50
+B030;Leivy;Sabun;6000;45
+B031;Paracetamol;Obat-obatan;2000;100
+B032;OBH Combi;Obat-obatan;12000;60
+B033;Antangin;Obat-obatan;1500;90
+B034;Tolak Angin;Obat-obatan;3000;70
+B035;Bodrex;Obat-obatan;2500;80
+B036;Promag;Obat-obatan;2000;85
+B037;Panadol;Obat-obatan;3500;75
+B038;Decolgen;Obat-obatan;2700;65
+B039;Neozep;Obat-obatan;2900;60
+B040;Konidin;Obat-obatan;2400;95
+B042;Roti Tawar;Bakery;7000;80
+B043;Croissant;Bakery;8000;75
+B044;Roti Pisang;Bakery;5000;85
+B045;Kue Lapis;Bakery;4500;60
+B046;Bolu Gulung;Bakery;7500;50
+B047;Roti Sisir;Bakery;6000;70
+B048;Kue Cubit;Bakery;4000;65
+B049;Roti Sosis;Bakery;8500;40
+B050;Roti Coklat;Bakery;8000;55
+B051;Parfum Vanilla;Parfum;20000;30
+B052;Parfum Lavender;Parfum;22000;25
+B053;Parfum Ocean;Parfum;21000;35
+B054;Parfum Musk;Parfum;25000;20
+B055;Parfum Rose;Parfum;23000;28
+B056;Parfum Jasmine;Parfum;24000;26
+B057;Parfum Citrus;Parfum;19000;32
+B058;Parfum Green Tea;Parfum;26000;18
+B059;Parfum Coffee;Parfum;27000;22
+B060;Parfum Sandalwood;Parfum;28000;24
+B061;Moisturizer;Skincare;30000;45
+B062;Sunscreen;Skincare;35000;40
+B063;Serum Wajah;Skincare;50000;35
+B064;Facial Wash;Skincare;25000;50
+B065;Night Cream;Skincare;45000;30
+B066;Toner;Skincare;27000;38
+B067;Sheet Mask;Skincare;15000;60
+B068;Eye Cream;Skincare;48000;28
+B069;Lip Balm;Skincare;12000;55
+B070;Peeling Gel;Skincare;33000;25
+B071;Teh Botol;Minuman;4000;100
+B072;Aqua 600ml;Minuman;3000;120
+B073;Susu Ultra;Minuman;6000;90
+B074;Kopi Kapal Api;Minuman;2500;150
+B075;Floridina;Minuman;4000;85
+B076;Good Day;Minuman;4500;80
+B077;Pocari Sweat;Minuman;7000;75
+B078;Coca Cola;Minuman;6000;100
+B079;Sprite;Minuman;6000;95
+B080;You C1000;Minuman;8000;70
+B081;Beras 5kg;Sembako;60000;40
+B082;Minyak Goreng 1L;Sembako;15000;60
+B083;Gula Pasir 1kg;Sembako;14000;50
+B084;Telur Ayam 1kg;Sembako;28000;55
+B085;Tepung Terigu 1kg;Sembako;10000;45
+B086;Garam Dapur;Sembako;3000;80
+B087;Kecap Manis;Sembako;9000;70
+B088;Saus Sambal;Sembako;8000;65
+B089;Mi Instan;Sembako;3000;100
+B090;Susu Bubuk;Sembako;35000;30
+B091;Kaos Polos;Baju;25000;40
+B092;Kemeja Lengan Pendek;Baju;45000;30
+B093;Jaket Hoodie;Baju;70000;25
+B094;Celana Jeans;Baju;80000;20
+B095;Kaos Lengan Panjang;Baju;30000;35
+B096;Kemeja Flanel;Baju;50000;28
+B097;Sweater;Baju;60000;22
+B098;Rok Pendek;Baju;40000;18
+B099;Celana Bahan;Baju;45000;26
+B100;Kaos Oblong;Baju;20000;50
+B101;Stapler;ATK;15000;40
+B102;Isi Staples;ATK;5000;60
+B103;Lakban;ATK;8000;55
+B104;Gunting;ATK;10000;50
+B105;Cutter;ATK;9000;45
+B106;Kertas HVS;ATK;30000;30
+B107;Map Kertas;ATK;2000;70
+B108;Lem Kertas;ATK;4000;65
+B109;Papan Klip;ATK;12000;25
+B110;Spidol Whiteboard;ATK;7000;35
+B111;Bawang Putih;Bumbu dapur;20000;50
+B112;Bawang Merah;Bumbu dapur;18000;55
+B113;Cabai Merah;Bumbu dapur;25000;40
+B114;Ketumbar;Bumbu dapur;6000;60
+B115;Kunyit;Bumbu dapur;4000;65
+B116;Jahe;Bumbu dapur;5000;50
+B117;Lengkuas;Bumbu dapur;4000;45
+B118;Merica Bubuk;Bumbu dapur;10000;30
+B119;Garam Halus;Bumbu dapur;3000;80
+B120;Penyedap Rasa;Bumbu dapur;5000;75
+B121;Apel;Buah-buahan;15000;60
+B122;Jeruk;Buah-buahan;12000;70
+B123;Pisang;Buah-buahan;10000;80
+B124;Anggur;Buah-buahan;25000;40
+B125;Semangka;Buah-buahan;20000;35
+B126;Melon;Buah-buahan;18000;30
+B127;Pepaya;Buah-buahan;9000;45
+B128;Mangga;Buah-buahan;13000;50
+B129;Nanas;Buah-buahan;8000;55
+B130;Kiwi;Buah-buahan;27000;25
+B131;Nugget Ayam;Frozen food;25000;40
+B132;Sosis Sapi;Frozen food;23000;50
+B133;Bakso Ikan;Frozen food;20000;60
+B134;Dimsum Ayam;Frozen food;28000;30
+B135;Kentang Beku;Frozen food;22000;35
+B136;Chicken Karaage;Frozen food;30000;25
+B137;Tempura;Frozen food;27000;28
+B138;Tahu Bakso;Frozen food;18000;45
+B139;Lumpia Frozen;Frozen food;20000;32
+B140;Risol Mayo;Frozen food;24000;38
